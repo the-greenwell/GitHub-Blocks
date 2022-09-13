@@ -1,0 +1,35 @@
+.octocat {
+    height: 200px;
+}
+.row {
+    width: auto;
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+}
+
+#first {
+    background-color: aquamarine;
+    justify-content: space-between;
+}
+
+#second {
+    background-color: rgb(34, 112, 12);
+    justify-content: space-evenly;
+}
+
+#third {
+    background-color: antiquewhite;
+    justify-content: space-around;
+}
+
+.container {
+    width: 60vw;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
